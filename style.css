@@ -14,7 +14,7 @@ div{
     width: 28em;
     position: absolute;
     left: 50%;
-    transform: translate(-60%, 2em);
+    transform: translate(-50%, 2em);
 }
 div input , button{
     margin-bottom: 1em;
@@ -54,4 +54,9 @@ input{
 }
 #btn:hover{
     background-color: #34a718;
+}
+@media screen and ( max-width :  450px  ){
+    div{
+        width: 90%;
+    }
 }
