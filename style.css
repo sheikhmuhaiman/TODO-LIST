@@ -21,8 +21,9 @@ div input , button{
     padding: 1em;
 }
 ul{
-    height: 8em;
+    height:90vh;
     overflow-y: auto;
+    margin-bottom: 1em;
 }
 li{
     display: grid;
