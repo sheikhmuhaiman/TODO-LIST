@@ -81,6 +81,7 @@ btn.onclick = function(){
         items.push(inputText);
         localStorage.setItem("items" , JSON.stringify(items));
         showitem();
+        input.value = "";
     }
 };
 
